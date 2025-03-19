@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="slate_sftp",
-    version="0.0.1",
+    version="0.1.0-beta.1",
     author="Isaac Kerson",
     author_email="ikerson@gsu.edu",
     description="A Python package for interacting with Slate SFTP servers",
@@ -25,6 +25,7 @@ setup(
     entry_points={
         "console_scripts": [
             "slate-file-manager=slate_sftp.file_manager:main",
+            "slate-setup=slate_sftp.file_manager:setup_config",  # This should be added
         ],
     },
 )
