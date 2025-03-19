@@ -134,3 +134,20 @@ with SlateSFTP(
     # Operations within this block will automatically connect and disconnect
     dirs, files = sftp.list_all("/some/directory")
 ```
+
+## Bugs and Enhancements
+
+This package is currently in beta. If you encounter any issues or have ideas for improvements, please submit them to our GitHub repository:
+
+1. Go to the [Issues page](https://github.com/GSU-Analytics/slate_sftp/issues)
+2. Click "New issue"
+3. Select the appropriate template (Bug report or Feature request)
+4. Provide a detailed description of the issue or enhancement
+5. For bug reports, please include:
+   - Version of slate_sftp you're using
+   - Your operating system and Python version
+   - Steps to reproduce the issue
+   - Expected vs. actual behavior
+   - Any error messages or logs
+
+Your feedback is valuable and will help improve the package for everyone!
