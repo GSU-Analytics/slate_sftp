@@ -1,0 +1,4 @@
+__pycache__/
+config.py
+read_pyfiles.py
+slate_sftp_files.txt
